@@ -10,6 +10,7 @@ export class ViewFriendsComponent implements OnInit {
   constructor() { }
   friendsData=[]
   ngOnInit(): void {
+  
   }
 
 }
