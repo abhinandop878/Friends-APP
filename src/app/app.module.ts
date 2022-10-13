@@ -6,7 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ViewFriendsComponent } from './view-friends/view-friends.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { AddFriendComponent } from './add-friend/add-friend.component'
 const appRoutes:Routes=[
   {
     path:"",component:ViewFriendsComponent
@@ -16,7 +17,8 @@ const appRoutes:Routes=[
   declarations: [
     AppComponent,
     NavbarComponent,
-    ViewFriendsComponent
+    ViewFriendsComponent,
+    AddFriendComponent
   ],
   imports: [
     BrowserModule,
